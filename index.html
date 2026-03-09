@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Website Frame</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<frameset rows="120,*,50">
+
+    <!-- Header -->
+    <frame src="header.html">
+
+    <frameset cols="20%,60%,20%">
+        
+        <!-- Content kiri -->
+        <frame src="left.html">
+
+        <frameset rows="50,*">
+            
+            <!-- Navigasi -->
+            <frame src="menu.html">
+
+            <!-- Main Content -->
+            <frame src="home.html" name="maincontent">
+
+        </frameset>
+
+        <!-- Content kanan -->
+        <frame src="right.html">
+
+    </frameset>
+
+    <!-- Footer -->
+    <frame src="footer.html">
+
+</frameset>
+
+</html>
